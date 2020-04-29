@@ -14,4 +14,6 @@ btn8=Button(root, padx=16, bd=8, fg="black", font=('arial', 20,'bold'), text="8"
 btn9=Button(root, padx=16, bd=8, fg="black", font=('arial', 20,'bold'), text="9").grid(row=1, column=2)
 Addition=Button(root, padx=16, bd=8, fg="black", font=('arial', 20,'bold'), text="+").grid(row=1, column=3)
 
+Radiobutton(text = "test")
+
 root.mainloop()
