@@ -19,11 +19,14 @@ btn5=Button(root, padx=16, bd=8, fg="black", font=('arial', 20,'bold'), text="5"
 btn6=Button(root, padx=16, bd=8, fg="black", font=('arial', 20,'bold'), text="6").grid(row=2, column=2)
 Substraction=Button(root, padx=16, bd=8, fg="black", font=('arial', 20,'bold'), text="-").grid(row=2, column=3)
 
-btn1=Button(root, padx=16, bd=8, fg="black", font=('arial', 20,'bold'), text="4").grid(row=3, column=0)
-btn2=Button(root, padx=16, bd=8, fg="black", font=('arial', 20,'bold'), text="5").grid(row=3, column=1)
-btn3=Button(root, padx=16, bd=8, fg="black", font=('arial', 20,'bold'), text="6").grid(row=3, column=2)
-Substraction=Button(root, padx=16, bd=8, fg="black", font=('arial', 20,'bold'), text="X").grid(row=3, column=3)
+btn1=Button(root, padx=16, bd=8, fg="black", font=('arial', 20,'bold'), text="1").grid(row=3, column=0)
+btn2=Button(root, padx=16, bd=8, fg="black", font=('arial', 20,'bold'), text="2").grid(row=3, column=1)
+btn3=Button(root, padx=16, bd=8, fg="black", font=('arial', 20,'bold'), text="3").grid(row=3, column=2)
+Division=Button(root, padx=16, bd=8, fg="black", font=('arial', 20,'bold'), text="/").grid(row=3, column=3)
 
-Radiobutton(text = "test")
+btn1=Button(root, padx=16, pady=16, bd=8, fg="black", font=('arial', 20,'bold'), text="1").grid(row=4, column=0)
+btn0=Button(root, padx=16, pady=16, bd=8, fg="black", font=('arial', 20,'bold'), text="0").grid(row=4, column=1)
+btn3=Button(root, padx=16, pady=16, bd=8, fg="black", font=('arial', 20,'bold'), text="3").grid(row=4, column=2)
+Final=Button(root, padx=16, bd=8, fg="black", font=('arial', 20,'bold'), text="Final").grid(row=3, column=3)
 
 root.mainloop()
